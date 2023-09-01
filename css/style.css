@@ -436,3 +436,16 @@ footer {
 .project-card-image {
   padding-bottom: 32px;
 }
+.project-card-list {
+  display: flex;
+  column-gap: 30px;
+  flex-wrap: wrap;
+  flex-grow: 0;
+  flex-shrink: 0;
+  align-items: center;
+  padding: 0 15px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  row-gap: 27px;
+}
