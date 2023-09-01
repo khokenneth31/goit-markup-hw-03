@@ -42,7 +42,6 @@ ul {
   padding: 0 15px;
   margin-left: auto;
   margin-right: auto;
-  display: flex;
 }
 .nav-menu {
   display: inline-flex;
@@ -223,8 +222,8 @@ a {
   padding: 0 15px;
   margin-left: auto;
   margin-right: auto;
-  display: flex;
   justify-content: center;
+  row-gap: 27px;
 }
 .second-section {
   width: 1128px;
@@ -300,6 +299,18 @@ footer {
   flex-direction: column;
   align-items: flex-start;
 }
+.filter-section-container{
+  width: 1128px;
+  padding: 0 15px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+.filters-list{
+  display: inline-flex;
+align-items: flex-start;
+gap: 24px;
+}
 .filters-list-menu-button {
   color: var(--iris);
   text-align: center;
@@ -331,4 +342,17 @@ footer {
   font-weight: 400;
   line-height: 24px; /* 150% */
   letter-spacing: 0.32px;
+}
+.project-card-list{
+    display: flex;
+  column-gap: 30px;
+  flex-wrap: wrap;
+  flex-grow: 0;
+  flex-shrink: 0;
+  align-items: center;
+    padding: 0 15px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  row-gap: 27px;
 }
