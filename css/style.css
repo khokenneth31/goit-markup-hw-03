@@ -40,7 +40,6 @@ ul {
 address {
   font-style: normal;
 }
-
 .container {
   width: 1158px;
   margin: auto;
@@ -120,11 +119,10 @@ nav {
   font-weight: 700;
   line-height: 60px;
   letter-spacing: 1.12px;
-  margin-bottom: 48px;
-  padding-bottom: 48px;
   margin: inherit;
   width: 496px;
   color: var(--white);
+  margin-bottom: 48px;
 }
 
 .section-hero {
@@ -150,7 +148,7 @@ nav {
   display: inline-flex;
   flex-direction: column;
   width: 264px;
-  justify-content: flex-start;
+  justify-content: center;
   box-sizing: content-box;
 }
 
@@ -183,10 +181,11 @@ nav {
   line-height: 40px; /* 111.111% */
   letter-spacing: 0.72px;
   text-transform: capitalize;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 
 .services-list {
+  justify-content: center;
   display: flex;
   gap: 24px;
 }
@@ -194,11 +193,14 @@ nav {
 .section.section-team {
   background-color: var(--lightgray);
 }
-
+.team-item-details {
+  background-color: var(--white);
+  padding: 32px 16px;
+}
 .team-list-item {
   display: inline-block;
   border-radius: 0px 0px 4px 4px;
-  background: var(--WHITE, #fff);
+  background: var(--white);
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
@@ -216,7 +218,6 @@ nav {
   letter-spacing: 0.4px;
   color: var(--navyblue);
   text-align: center;
-  padding-top: 32px;
 }
 
 .team-position {
@@ -225,7 +226,6 @@ nav {
   font-size: 16px;
   line-height: 24px; /* 150% */
   letter-spacing: 0.32px;
-  padding: 8px 0 32px;
 }
 
 .portfolio-feature-title {
@@ -241,10 +241,6 @@ nav {
   line-height: 24px; /* 150% */
   letter-spacing: 0.32px;
   color: var(--slate);
-}
-
-.container.footer-container {
-  padding: 120px 0;
 }
 
 .iris-logo {
@@ -283,10 +279,11 @@ nav {
 
 .footer {
   background: var(--navyblue);
-  height: 312px;
+  padding: 120px 0;
 }
 
 .filter-button-item.active {
+  border-color: var(--ocean);
   border-radius: 4px;
   background: var(--ocean);
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
@@ -304,10 +301,11 @@ nav {
 
 .filter-button-item {
   border-radius: 4px;
-  border: 1px solid var(--cornflower, #e7e9fc);
-  background: var(--cloud, #f4f4fd);
-  color: var(--iris, #4d5ae5);
+  border: 1px solid var(--cornflower);
+  background: var(--cloud);
+  color: var(--iris);
   text-align: center;
+  height: 24px;
   font-size: 16px;
   font-weight: 500;
   padding: 12px 24px;
@@ -331,17 +329,26 @@ nav {
 .portfolio-feature-designation {
   padding: 8px 16px 32px;
 }
-
-.portfolio-features-list {
-  display: inline-block;
-  border: 1px solid var(--CORNFLOWER, #e7e9fc);
-  background: var(--WHITE, #fff);
-  margin-right: 16px;
-  margin-bottom: 48px;
+.portfolio-item-details {
+  background-color: var(--white);
+  padding: 23px 16px;
+}
+.team {
+  background-color: var(--cloud);
+}
+.section-portfolio-features {
+  padding-bottom: 96px;
+}
+.portfolio-features-list-item {
+  display: flex;
+  column-gap: 24px;
+  row-gap: 48px;
+  flex-wrap: wrap;
 }
 
-.portfolio-features-list-item {
-  margin-bottom: 120px;
+.portfolio-features-list {
+  border: 1px solid var(--cornflower);
+  background: var(--white);
 }
 
 .address-contacts-list a:hover,
