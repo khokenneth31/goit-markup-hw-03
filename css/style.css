@@ -285,23 +285,6 @@ nav {
   padding: 120px 0;
 }
 
-.filter-button-item.active {
-  border-color: var(--ocean);
-  border-radius: 4px;
-  background: var(--ocean);
-  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
-    0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
-  color: var(--cornflower);
-  color: var(--white, #fff);
-  text-align: center;
-  font-family: Roboto;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 24px; /* 150% */
-  letter-spacing: 0.64px;
-  padding: 12px 24px;
-}
-
 .filter-button-item {
   border-radius: 4px;
   border: 1px solid var(--cornflower);
